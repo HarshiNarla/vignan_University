@@ -27,8 +27,8 @@ app.use(express.json());
 connectDB();
 //default route
 app.get("/",(req,res)=>{
-res.json("Welcome to DDD University")
-}
+res.json("Welcome to Vignan University")
+}}
 //routes
 const userRoutes = require("./routes/User");
 app.use("/user", userRoutes);
